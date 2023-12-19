@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Link to the external style sheet -->
+    <link rel="stylesheet" href="style.css" />
+        <!-- Link to the external icon library -->
+    <link rel="stylesheet"href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"/>
+    <!-- Title of the webpage -->
+
+    <title>URL shorten</title>
+  </head>
+  <body>
+        <!-- Wrapper for the entire content -->
+    <div class="wrapper">
+        <!-- Form for URL input and shorten button -->
+      <form action="#">
+        <!-- Icon for URL -->
+        <i class="url-icon uil uil-link"></i>
+        <!-- Input field for the long URL -->
+        <input type="text" placeholder="put the long url" required />
+       <!-- Button to trigger URL shortening -->
+        <button>Shorten</button>
+      </form>
+            <!-- Display total links and total clicks -->
+      <div class="count">
+        <span>Total Links: <span>10</span>  & Total Clicks: <span>140</span> </span>
+        <!-- Button to clear all links -->
+      <a href="#">Clear All</a>
+    </div>
+      <!-- Display area for shortened URLs -->
+      <div class="urls-area">
+        <!-- Title row for the URL data -->
+
+      <div class="title">
+        <li>Shorten URL</li>
+        <li>Original URL</li>
+        <li>Clicks</li>
+        <li>Action</li>
+      </div>
+        <!-- Data rows for individual shortened URLs -->
+      <div class="data">
+        <li><a href="#">example.com/xyz234</a></li>
+        <li>https://www.codingnepalweb.com/p/about-us.html</li>
+        <li>16</li>
+        <li><a href="#">Delete</a></li>
+        </div>
+        <div class="data">
+        <li><a href="#">example.com/xyz234</a></li>
+        <li>https://www.codingnepalweb.com/p/about-us.html</li>
+        <li>16</li>
+        <li><a href="#">Delete</a></li>
+        </div>
+        <div class="data">
+        <li><a href="#">example.com/xyz234</a></li>
+        <li>https://www.codingnepalweb.com/p/about-us.html</li>
+        <li>16</li>
+        <li><a href="#">Delete</a></li>
+        </div>
+        <div class="data">
+        <li><a href="#">example.com/xyz234</a></li>
+        <li>https://www.codingnepalweb.com/p/about-us.html</li>
+        <li>16</li>
+        <li><a href="#">Delete</a></li>
+        </div>
+        <div class="data">
+        <li><a href="#">example.com/xyz234</a></li>
+        <li>https://www.codingnepalweb.com/p/about-us.html</li>
+        <li>16</li>
+        <li><a href="#">Delete</a></li>
+        </div>
+          <!-- Repeat similar data rows for other URLs -->
+      </div>
+    </div>
+    <!-- Background blur effect -->
+
+    <div class="blur effect"></div>
+    <!-- Popup box for additional information -->
+
+    <div class="popup-box">
+        <div class="info-box error">Your short link is ready, You can also edit your short link now but can't edit once you saved it. </div>
+        <!-- Form for editing shortened URL -->
+        <form action="#">
+        <label>Edit your shorten url </label>
+        <input type="text" spellcheck="false" value="example.com/xyz234">
+         <i class="copy-icon uil uil-copy-alt"></i>
+         <button>Save</button>
+    </form>
+    </div>
+    <!-- Script file for JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
