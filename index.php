@@ -60,8 +60,8 @@ require_once "includes/addsite_view.inc.php";
                     <form id="addSiteForm" action="includes/addsite.inc.php" method="post">
                         <label for="siteName">Site Name:</label>
                         <input type="text" id="siteName" name="sitename" />
-                        <label for="siteName">Site Name:</label>
-                        <input type="text" id="siteName" name="sitename" />
+                        <label for="siteName">Site Link:</label>
+                        <input type="text" id="siteName" name="sitelink" />
                         <label for="username">Username:</label>
                         <input type="text" id="username" name="siteusername" />
                         <label for="siteEmail">Email:</label>
