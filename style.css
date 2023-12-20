@@ -239,3 +239,13 @@ ul {
   width: 850px;
   margin-left: 300px;
 }
+.form-error{
+  color: red;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.form-success{
+  color: green;
+  font-size: 14px;
+  margin-right: 10px;
+}
